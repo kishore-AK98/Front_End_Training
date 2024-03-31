@@ -1,0 +1,42 @@
+html {
+    background-color: rgb(152, 161, 164);
+}
+.list-searchbar{
+    background-color: grey;
+}
+.site-logo{
+    background: pink;
+    
+}
+.input-search{
+    
+    padding: 3px;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    /* margin: 0px; */
+    overflow: hidden;
+    
+}
+li{
+    float: left;
+}
+a:hover{
+    background-color: black;
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 7px;
+    font-size: large;
+    
+}
+h1{
+    color:rgb(172, 35, 35);
+    text-align: center;
+    text-transform: lowercase;
+    
+} 
