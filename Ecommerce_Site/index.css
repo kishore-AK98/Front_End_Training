@@ -16,8 +16,12 @@ ul {
     list-style-type: none;
     padding: 0px;
     /* margin: 0px; */
-    overflow: hidden;
+    /* overflow: hidden; */
     
+}
+.searchbar{
+    background: black;
+    position: relative;
 }
 li{
     float: left;
