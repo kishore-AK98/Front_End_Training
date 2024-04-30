@@ -1,30 +1,50 @@
 html {
     background-color: rgb(152, 161, 164);
 }
-.list-searchbar{
+/* .list-searchbar{
     background-color: grey;
-}
-.site-logo{
-    background: pink;
+} */
+#navbar{
     
+    overflow: visible;   
+    background-color: #fff;
+}
+.site-logo img{
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    
+}
+
+/* sub Div Two */
+.searchbar{
+    height: 40px;
+    border: 2px solid black;
+    background: peru;
+    
+    
+    
+}
+/* Sub Div one */
+.items{
+    height: 40px;
+    border: 2px solid black;
+    padding: 0px;
+    background: yellowgreen;
+    margin-top: 10px;
+    
+    
+    /* float: left; */
 }
 .input-search{
-    
-    padding: 3px;
+    height: 20px;
 }
-ul {
+li {
     list-style-type: none;
-    padding: 0px;
-    /* margin: 0px; */
-    /* overflow: hidden; */
-    
-}
-.searchbar{
-    background: black;
-    position: relative;
-}
-li{
     float: left;
+    
 }
 a:hover{
     background-color: black;
@@ -34,7 +54,7 @@ a{
     text-decoration: none;
     color: white;
     display: block;
-    padding: 7px;
+    /* padding: 7px; */
     font-size: large;
     
 }
